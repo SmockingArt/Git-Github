@@ -24,7 +24,7 @@ Tags : #ENI #LeWagon #Vidéo
 		- Commande : 
 			- git config --help Ou Git config --h   //En ligne de commande
 			- git contig --global user.name "SmockingArt"
-			- git contig --global user.email "smockingArt@...."
+			- git contig --global user.email "smockingart_dm@hotmail.com"
 			- git contig --global --edit
 			- git init  // initialisation d'un fichier git
 			- git status // voir les dossier save
@@ -32,7 +32,7 @@ Tags : #ENI #LeWagon #Vidéo
 			- git touch // crée un fichier
 	- Commiter les changements
 		- Commande :
-			- git commit -m "ici le mommentaire"
+			- git commit -m "ici le commentaire"
 	- Ignorer les fichiers
 		- Commande :
 			- .gitignore // fichier de conf pour ignorer certain fichier
@@ -40,5 +40,7 @@ Tags : #ENI #LeWagon #Vidéo
 	- Récupérer une version d’un fichier
 		- Commande :
 			- git checkout
-			- git reset // Enleve de git add
-			- git reset -- hard // Enleve de git add et suprime les modifications
+			- git reset // Enlevé de git add
+			- git reset -- hard // Enlevé de git add et supprimé les modifications
+
+---

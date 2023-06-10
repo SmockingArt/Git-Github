@@ -2,11 +2,11 @@
 ---
 Concepts clés: 
 
-Source : Eni - Le Wagon
+Source : Eni - Le Wagon - Video 
 
 Auteur/Projets :  Formation 
 
-Tags : #ENI #LeWagon #Vidéo 
+Tags : #git #Github
 
 ✍  Fais part : @SmockingArt
 
@@ -43,8 +43,12 @@ Tags : #ENI #LeWagon #Vidéo
 			- git rm --cached nomDuFichier // Enlever le cache de git
 	- Récupérer une version d’un fichier
 		- Commande :
-			- git checkout
 			- git reset // Enlevé de git add
 			- git reset -- hard // Enlevé de git add et supprimé les modifications
-
+	- Branch 
+	 	- Commande :
+	 	 	- git branch 
+	 	 	- git branch <name> // Crée une branch 
+			- git checkout <name> // Changer de Branch
+			- git merge // Fusion de branch
 ---

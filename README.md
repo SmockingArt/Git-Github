@@ -22,20 +22,22 @@ Tags : #ENI #LeWagon #Vidéo
 	- Initialiser un projet
 	- Git Bash
 		- Commande : 
-			- git config --help Ou Git config --h   //En ligne de commande
+			- git config --help Ou Git config --h	//En ligne de commande
 			- git contig --global user.name "SmockingArt"
 			- git contig --global user.email "smockingart_dm@hotmail.com"
 			- git contig --global --edit
-			- git init  // initialisation d'un fichier git
-			- git status // voir les dossier save
-			- git add .  // save dossier
-			- git touch // crée un fichier
+			- git init	// initialisation d'un fichier git
+			- git status	// voir les dossier save
+			- git log	// voir les différents commit
+			- git add .	// save dossier
+			- git touch	// crée un fichier
 	- Commiter les changements
 		- Commande :
 			- git commit -m "ici le commentaire"
 	- Ignorer les fichiers
 		- Commande :
-			- .gitignore // fichier de conf pour ignorer certain fichier
+			- .gitignore	// fichier de conf pour ignorer certain fichier
+			- git mv <ancien_nom> <nouveau_nom> ou déplacer le fichier 
 			- git rm --cached nomDuFichier // Enlever le cache de git
 	- Récupérer une version d’un fichier
 		- Commande :

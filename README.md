@@ -31,13 +31,15 @@ Tags : #ENI #LeWagon #Vidéo
 			- git log	// voir les différents commit
 			- git add .	// save dossier
 			- git touch	// crée un fichier
-	- Commiter les changements
+			- git mv <ancien_nom> <nouveau_nom> ou déplacer le fichier 
+	- les changements
 		- Commande :
 			- git commit -m "ici le commentaire"
+			- git pull 
+			- git push origin master 
 	- Ignorer les fichiers
 		- Commande :
 			- .gitignore	// fichier de conf pour ignorer certain fichier
-			- git mv <ancien_nom> <nouveau_nom> ou déplacer le fichier 
 			- git rm --cached nomDuFichier // Enlever le cache de git
 	- Récupérer une version d’un fichier
 		- Commande :

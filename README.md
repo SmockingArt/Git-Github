@@ -35,6 +35,8 @@ Tags : #git #Github
 	- les changements
 		- Commande :
 			- git commit -m "ici le commentaire"
+			- git remote add origin 
+			- git remote -v
 			- git pull 
 			- git push origin master 
 	- Ignorer les fichiers

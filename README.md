@@ -65,6 +65,18 @@ Tags : #git #Github
 				- git log --merges -2  // afficher les deux merges les plus récents
 				- git log --no-merge  // ne veut pas consulter les commits issus des merges 
 				- git log --pretty=%P -1 // Pour identifier le commit parent d’un commit
+			- tag :
+				- git checkout hash_du_commit // Pour créer un tag léger, il faut se positionner sur le commit dont on veut créer un alias 
+				- git tag nom_du_tag hash // créer un tag sans se positionner sur le commit en utilisant la commande git tag tout en spécifiant le hash du commit 
+					- exemple git tag v1.8.6 af31a4
+				- git tag nom_du_tag 
+					- exemple : git tag v1.8.5 
+				- git tag -a nom_du_tag // tag annoté
+				- git tag -a nom_du_tag -m "message_du_tag" 
+				- git tag --list // lister uniquement les noms des tags
+				- git show v1.8.5 // Afficher les détails d’un tag va également afficher les détails du commit auquel le tag est associé
+				- git push origin --tags // envoyer les tags un à un vers le dépôt distant
+				- git tag -d nom_du_tag // Pour supprimer un tag
 		- git diff : 
 			- git diff // Pour afficher les différences entre le répertoire de travail et l’index
 			- git diff HEAD // comparer ces deux zones sans se soucier de l’index
@@ -97,8 +109,9 @@ Tags : #git #Github
 			- git restore fichier // permet également de restaurer l’état de fichiers du répertoire de travail à partir de l’index.
 			- git restore --staged fichier // restaurer l’état du fichier à partir de HEAD
 	- Branch 
+		- Graphique généré à l’aide de gitgraph.js disponible sur GitHub (https://github.com/nicoespeon/gitgraph.js)
 	 	- Commande :
-	 	 	- git branch 
+	 	 	- git branch // afficher la liste des branches,
 	 	 	- git branch <name> // Crée une branch 
 			- git checkout <name> // Changer de Branch
 			- git merge // Fusion de branch
